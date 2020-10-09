@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta description" content="Oslo Beer - Payment page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oslo Beer - Payment</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/a20860e224.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="nav__oslo-beer">
+        <p class="nav__oslo-beer-text">OSLO BEER</p>
+      </div>
+      <nav class="menu">
+        <ul>
+          <li>HOME</li>
+          <li>ABOUT</li>
+          <li>CONTACT</li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <div class="main__content">
+          <div class="main__content--pay-now">
+            <h1>Pay now</h1>
+
+            <div class="main__content--pay-now--visa">
+              <div class="main__content--pay-now--visa--logo">
+                <i class="fab fa-cc-visa"></i>
+              </div>
+              <form action="submit.php" method="POST">
+                <div class="card-number-div">
+                  <label for="cardnumber">Cardnumber</label>
+                  <input
+                    class="card-number"
+                    type="text"
+                    id="cardnumber"
+                    name="cardnumber"
+                  />
+                </div>
+                <div class="card__details">
+                  <div class="exp-date">
+                    <label for="expdate">Exp Date</label>
+                    <input type="text" id="expdate" name="expdate" />
+                  </div>
+                  <div class="cvv-div">
+                    <label for="cvv">CVV</label>
+                    <input type="text" id="cvv" name="cvv" />
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="pay-now--button">
+              <input class="submit-button" type="submit" value="Pay now" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer__social-media">
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Oslo Beer - Check out page"
+      <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Oslo Beer - Check Out</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/a20860e224.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="nav__oslo-beer">
+        <p class="nav__oslo-beer-text">OSLO BEER</p>
+      </div>
+      <nav class="menu">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="main__content">
+          <div class="main__content--form">
+            <h1>Check Out</h1>
+            <form action="submit.php" method="POST">
+              <label for="firstname">Name:</label>
+              <input type="text" id="firstname" name="firstname" />
+              <label for="surname">Surname:</label>
+              <input type="text" id="surname" name="surname" />
+              <label for="address">Address 1:</label>
+              <input type="text" id="address" name="address" />
+              <label for="telnumber">Tel Number:</label>
+              <input type="text" name="telnumber" />
+              <div class="form--button">
+                <input
+                  class="submit-button"
+                  type="submit"
+                  value="Proceed to payment"
+                />
+              </div>
+            </form>
+          </div>
+          <div class="main__content--items">
+            <img
+              class="main__content--items--image"
+              src="img/beer@2x.png"
+              alt="image of beer"
+            />
+            <p class="main__content--items--text">1 x beer @399kr</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer__social-media">
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+      </div>
+    </footer>
+  </body>
+</html>

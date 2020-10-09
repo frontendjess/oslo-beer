@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display&family=Stardos+Stencil:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+/* a links */
+
+a {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.1875rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #000000;
+}
+
+.nav__oslo-beer-text {
+  color: #ffffff;
+  font-family: "Stardos Stencil", cursive;
+  font-size: 3.125rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+.menu,
+li {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.1875rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+/* main */
+
+main {
+  background-color: #ffffff;
+  min-height: 650px;
+  width: 100%;
+  margin: auto;
+}
+
+.main__content {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  /* border: solid 1px green; */
+}
+
+.main__content--form {
+  width: 45%;
+  border: solid 1px #000000;
+  min-height: 700px;
+  padding: 1%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #000000;
+  display: block;
+  margin-bottom: 15px;
+}
+
+label:after {
+  content: "";
+  display: block;
+}
+
+input[type="text"] {
+  display: block;
+  border-radius: 3px;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.form--button {
+  display: block;
+  text-align: right;
+}
+
+.submit-button {
+  padding: 15px 25px;
+  background-color: #00b395;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #ffffff;
+  margin-top: 15px;
+}
+
+.main__content--items {
+  width: 15%;
+  border: solid 1px #000000;
+  background-color: #000000;
+  min-height: 700px;
+}
+
+.main__content--items--image {
+  width: 100%;
+}
+
+.main__content--items--text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #ffffff;
+  padding: 1%;
+}
+
+/* footer */
+
+.footer__social-media {
+  text-align: right;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.fa-instagram {
+  font-size: 2rem;
+  padding: 0 5px;
+}
+
+.fa-twitter {
+  font-size: 2rem;
+  padding: 0 5px;
+}
+
+/* pay now page */
+
+.main__content--pay-now {
+  width: 60%;
+  border: solid 1px #000000;
+  min-height: 700px;
+}
+
+.main__content--pay-now {
+  padding: 1%;
+}
+
+.main__content--pay-now--visa {
+  width: 80%;
+  border: none;
+  border-radius: 20px;
+  background-color: #000000;
+  min-height: 300px;
+  margin: 0 auto;
+  padding: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.main__content--pay-now--visa--logo {
+  text-align: right;
+}
+
+.fa-cc-visa {
+  color: #ffffff;
+  font-size: 3.5rem;
+}
+
+.card-number-div {
+  width: 100%;
+  display: inline-block;
+}
+.card__details {
+  width: 100%;
+}
+.exp-date {
+  width: 40%;
+  text-align: left;
+  float: left;
+}
+
+.cvv-div {
+  width: 40%;
+  text-align: right;
+  float: right;
+}
+
+input[name="cardnumber"] {
+  background-color: #000000;
+  color: #ffffff;
+  border: solid 1px #ffffff;
+}
+
+input[name="expdate"] {
+  background-color: #000000;
+  color: #ffffff;
+  border: solid 1px #ffffff;
+}
+
+input[name="cvv"] {
+  background-color: #000000;
+  color: #ffffff;
+  border: solid 1px #ffffff;
+}
+
+.pay-now--button {
+  display: block;
+  text-align: right;
+  padding: 50px;
+  margin-right: 40px;
+}
+
+/* about us page */
+
+.main__content__about-us {
+  width: 75%;
+  border-left: solid 2px #000000;
+  border-right: solid 2px #000000;
+  min-height: 650px;
+}
+
+.main__content__about-us--intro {
+  width: 100%;
+  /* border: solid 1px fuchsia; */
+  padding: 2% 1%;
+}
+
+.main__content__about-us__beers {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main__content__about-us__beers--beer-1 {
+  max-width: 30%;
+  border: solid 3px #000000;
+  text-align: center;
+}
+
+.main__content__about-us__beers--beer-2 {
+  max-width: 30%;
+  border: solid 3px #000000;
+  text-align: center;
+}
+
+.main__content__about-us__beers--beer-3 {
+  max-width: 30%;
+  border: solid 3px #000000;
+  text-align: center;
+}
+
+.img-beer-1 {
+  width: 100%;
+  padding: 2px;
+}
+
+.img-beer-2 {
+  width: 100%;
+  padding: 2px;
+}
+
+.img-beer-3 {
+  width: 100%;
+  padding: 2px;
+}
+
+.beer-1-text {
+  padding: 10px;
+  text-align: left;
+}
+
+.beer-2-text {
+  padding: 10px;
+  text-align: left;
+}
+
+.beer-3-text {
+  padding: 10px;
+  text-align: left;
+}
+
+.beers--cta {
+  background-color: #000000;
+  width: 90%;
+  color: #ffffff;
+  padding: 2%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
